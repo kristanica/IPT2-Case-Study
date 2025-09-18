@@ -1,10 +1,9 @@
 export default {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
     extend: {
-      colors: {
-        brand: "var(--brand-color)",
-        background: "var(--brand-bg)",
+      fontFamily: {
+        lainFont: ["lainFont", "sans-serif"], // fallback = sans-serif
       },
     },
   },

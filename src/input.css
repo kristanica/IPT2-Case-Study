@@ -4,3 +4,27 @@
   --brand-color: #ff69b4;
   --brand-bg: #1e293b;
 }
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-primary-500: #3b82f6; /* Example with shades */
+  --color-primary-600: #2563eb;
+}
+@font-face {
+  font-family: headerFont;
+  src: url("../assets/fonts/lain-headerFont.ttf");
+}
+@font-face {
+  font-family: normalFont;
+  src: url("../assets/fonts/lain-normalFont.ttf");
+}
+
+@theme {
+  --font-headerFont: headerFont;
+}
+
+@theme {
+  --font-normalFont: normalFont;
+}
